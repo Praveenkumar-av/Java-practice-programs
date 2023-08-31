@@ -8,9 +8,9 @@ class Ex1_Q1
     {
         int a, b;
         Scanner scan=new Scanner(System.in);
-        System.out.println("Enter a :");
+        System.out.print("Enter a :");
         a=scan.nextInt();
-        System.out.println("Enter b :");
+        System.out.print("Enter b :");
         b=scan.nextInt();
         b=a+b;
         a=Math.abs(b-a);

@@ -37,8 +37,7 @@ class Ex1_Q14
                 }
             }
         }
-        System.out.println(arr1);
-        System.out.println(arr2);
+
         if(flag==0)
         {
             System.out.println("The given strings are anagram");

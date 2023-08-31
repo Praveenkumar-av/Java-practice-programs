@@ -7,7 +7,7 @@ public class Ex1_Q9
     {
         int num1 = -1, num2 = 1 ,n, sum;
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter no. of terms :");
+        System.out.print("Enter no. of terms :");
         n = scan.nextInt();
         scan.close();
         for(int i=0;i<n;i++)
