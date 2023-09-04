@@ -19,9 +19,8 @@ class UserProfile
         friends.remove(name);
     }
 
-    void updateBio(String name,String bio)
+    void updateBio(String bio)
     {
-        this.userName = name;
         this.bio = bio; 
     }
     
@@ -71,11 +70,9 @@ class Ex2_Q7
 
                 case 3:
                     scan.nextLine();
-                    System.out.println("Enter the new Name :");
-                    name = scan.nextLine();
                     System.out.println("Enter the Bio :");
                     String bio = scan.nextLine();
-                    user1.updateBio(name,bio);
+                    user1.updateBio(bio);
                     user1.display();
                     break;
                 
