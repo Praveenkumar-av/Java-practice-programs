@@ -62,7 +62,7 @@ class Ex2_Q6
 
         while(choice != 0)
         {
-            System.out.println("Enter the choice 1 to add, 2 to find, 3 to display customers and 0 to exit :");
+            System.out.print("Enter the choice 1 to add, 2 to find, 3 to display customers and 0 to exit :");
             choice = scan.nextInt();
 
             switch(choice)

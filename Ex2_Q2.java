@@ -81,7 +81,7 @@ class Ex2_Q2
 
         while(choice != 0)
         {
-            System.out.println("Enter the choice 1 to add book, 2 to remove book, 3 to display books, 0 to exit:");
+            System.out.print("Enter the choice 1 to add book, 2 to remove book, 3 to display books, 0 to exit:");
             choice = scan.nextInt();
             switch(choice)
             {

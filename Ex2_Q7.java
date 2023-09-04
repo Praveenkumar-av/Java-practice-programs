@@ -48,7 +48,7 @@ class Ex2_Q7
         String name;
         while(choice != 0)
         {
-            System.out.println("Enter the choice 1 to add friend, 2 to remove friend, 3 to update Bio,4 to display, 0 to exit :");
+            System.out.print("Enter the choice 1 to add friend, 2 to remove friend, 3 to update Bio,4 to display, 0 to exit :");
             choice = scan.nextInt();
 
             switch(choice)

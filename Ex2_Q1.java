@@ -50,7 +50,7 @@ class Ex2_Q1
         float amount;
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter the choice 1 to deposit, 2 to withdraw, 3 to check balance :");
+        System.out.print("Enter the choice 1 to deposit, 2 to withdraw, 3 to check balance :");
         choice = scan.nextInt();
 
         switch(choice)

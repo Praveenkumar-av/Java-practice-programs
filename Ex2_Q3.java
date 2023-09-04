@@ -71,7 +71,7 @@ class Ex2_Q3
 
         while(choice != 0)
         {
-            System.out.println("Enter the choice 1 to add employee, 2 to find by id, 3 to display, 0 to exit :");
+            System.out.print("Enter the choice 1 to add employee, 2 to find by id, 3 to display, 0 to exit :");
             choice = scan.nextInt();
             switch(choice)
             {
