@@ -1,9 +1,8 @@
-import java.util.Arrays;
-import java.util.Scanner;
-public class temp 
+public class temp
 {
     public static void main(String args[])
     {
-        System.out.println('a'!='a');
+        char ch = 'a';
+        System.out.printf("%c",ch);
     }
 }
