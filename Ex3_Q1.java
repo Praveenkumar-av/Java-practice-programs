@@ -81,7 +81,8 @@ class Ex3_Q1
 
         // Savings Bank Account
         SavingsAccount obj1 = new SavingsAccount(12023912,"Praveen",10000f);
-    
+
+        System.out.println("Savings Bank Account");
         System.out.println("Enter the amount to deposit :");
         money = scan.nextFloat();
         obj1.deposit(money);
@@ -94,6 +95,8 @@ class Ex3_Q1
 
         // Checking Bank Account
         CheckingAccount obj2 = new CheckingAccount(12023346,"Robert",15000f);
+
+        System.out.println("Checking Bank Account");
     
         System.out.println("Enter the amount to deposit :");
         money = scan.nextFloat();
