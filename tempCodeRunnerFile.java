@@ -1,4 +1,3 @@
-void method1()
-    // {
-    //     System.out.println("implementation of Method 1");
-    // }
+       // w5.start();
+        // w6.start();
+        // w7.start();

@@ -1,81 +1,21 @@
-interface Vehicle
+class A extends Thread
 {
-    void start();
-    void stop();
-    void accelerate();
-}
-
-class Car implements Vehicle
-{
-    public void start()
+    public void run()
     {
-        System.out.println("Car started");
-    }
-
-    public void stop()
-    {
-        System.out.println("Car stopped");
-    }
-
-    public void accelerate()
-    {
-        System.out.println("Car is moving");
-    }
-}
-
-class Motorcycle implements Vehicle 
-{
-    public void start()
-    {
-        System.out.println("Bike started");
-    }
-
-    public void stop()
-    {
-        System.out.println("Bike stopped");
-    }
-
-    public void accelerate()
-    {
-        System.out.println("Bike is moving");
-    }
-}
-
-class Bicycle implements Vehicle  
-{
-    public void start()
-    {
-        System.out.println("Cycle started");
-    }
-
-    public void stop()
-    {
-        System.out.println("Cycle stopped");
-    }
-
-    public void accelerate()
-    {
-        System.out.println("Cycle is moving");
+        System.out.println("Thread A");
+        this.notify();
     }
 }
 
 class temp
 {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
-        Vehicle c = new Car();
-        c.start();
-        c.stop();
-        c.accelerate();
-
-        Vehicle m = new Motorcycle();
-        m.start();
-        m.stop();
-        m.accelerate();
-
-        Vehicle b = new Bicycle();
-        b.start();
-        b.stop();
-        b.accelerate();
+        A obj = new A();
+        Thread t1 = new Thread(obj);
+        t1.start();
+    
+        try { t1.wait(); } catch(Exception e) { System.out.println(e); }
+        System.out.println("Main Thread");
     }
 }
