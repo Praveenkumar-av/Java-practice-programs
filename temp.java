@@ -1,21 +1,23 @@
-class A extends Thread
+class Mythread extends Thread 
 {
+    static int count = 0;
     public void run()
     {
-        System.out.println("Thread A");
-        this.notify();
+        count++;
+        System.out.println("Count :"+count);
     }
 }
 
-class temp
+class temp 
 {
-    public static void main(String[] args)
+    public static void main(String args[])
     {
-        A obj = new A();
-        Thread t1 = new Thread(obj);
+        Mythread t1 = new Mythread();
+
+        Mythread t2 = new Mythread();
+
         t1.start();
-    
-        try { t1.wait(); } catch(Exception e) { System.out.println(e); }
-        System.out.println("Main Thread");
+        t2.start();
+        
     }
 }
