@@ -39,10 +39,11 @@ class Ex8_Q3
             System.out.println(lit.previous());
         }
 
-        System.out.println("Enter the position to insert :");
+        System.out.println("Enter the position and element to insert :");
         pos = scan.nextInt();
+        int e = scan.nextInt();
 
-        ll.add(pos,50);
+        ll.add(pos,e);
 
         ll.addFirst(5);
 
