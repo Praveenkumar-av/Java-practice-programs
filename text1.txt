@@ -1,21 +1,6 @@
-This is created by Ex5_Q2.java file
+Hi
 hi
 bye
-bye
-hi
-bye
-hi
-bye
-hi
-bye
-hi
-bye
-hi
-bye
-hi
-hi
-bye
-hi
-bye
-bye
-hi
+guy
+Bye
+BYE

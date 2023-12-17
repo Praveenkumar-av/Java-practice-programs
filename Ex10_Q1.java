@@ -30,7 +30,7 @@ public class Ex10_Q1
 
             for(i=0;i<n;i++)
             {
-                System.out.println("Enter the Id:");
+                System.out.println("Enter the Id, name, age, dept, sal:");
                 id = scan.nextInt();
 
                 name = scan.next();
